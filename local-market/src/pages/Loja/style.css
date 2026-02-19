@@ -1,0 +1,36 @@
+main {
+    width: 100%;
+}
+
+#productsList {
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+#productsList li {
+    width: 250px;
+
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#productsList li > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#productsList li > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,28 @@
+:root {
+    --black: #00171F;
+    --white: #fff;
+
+    --primary: #41395e;
+    --primary-dark: #312b46;
+    --primary-light: #635790;
+
+    --background: #f4bd9e;
+    --background-dark: #6d2126;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background);
+}
+
+.logo {
+    position: fixed;
+    z-index: 2;
+    top: 10px;
+    left: 15px;
+    width: 50px;
+}

@@ -1,0 +1,52 @@
+main {
+    width: 100%;
+}
+
+.cart {
+    width: 95%;
+    max-width: 350px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.cart > button { align-self: flex-end; }
+
+
+#cartList {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#cartList > li {
+    width: 100%;
+    
+    background-color: var(--background-dark);
+    padding: 10px 20px;
+    border-radius: 20px;
+
+    display: flex;
+    gap: 20px;
+
+    position: relative;
+    color: white;
+}
+#cartList > li > img {
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+}
+#cartList > li > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#cartList > li > span {
+    position: absolute;
+    top: 0;
+    
+}

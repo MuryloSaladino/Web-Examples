@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "description": "RTX 4090",
+    "imgUrl": "https://asset.msi.com/resize/image/global/product/product_1665552671c76199be0956de9b63d7e35b33b91acb.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+    "price": 15000.0,
+    "status": true,
+    "amount": 5
+  },
+  {
+    "id": 2,
+    "description": "SSD M.2",
+    "imgUrl": "https://www.pny.com/productimages/18034E33-3192-46E5-9D8B-AE2201131440/images/PNY-CS2140-SSD-M.2-NVME-fr.png",
+    "price": 290.0,
+    "status": false,
+    "amount": 0
+  },
+  {
+    "id": 3,
+    "description": "Intel Core i9",
+    "imgUrl": "https://img.terabyteshop.com.br/produto/g/processador-intel-core-i9-10900f-280ghz-520ghz-turbo-10-geracao-10-cores-20-threads-lga-1200-bx8070110900f_99002.png",
+    "price": 3900.0,
+    "status": true,
+    "amount": 50
+  }
+]

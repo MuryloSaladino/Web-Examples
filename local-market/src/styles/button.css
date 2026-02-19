@@ -1,0 +1,21 @@
+button {
+    cursor: pointer;
+    color: white;
+
+    background-color: var(--primary);
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+  
+    align-self: flex-end;
+
+    transition: 0.3s;
+}
+button:hover {
+    background-color: var(--primary-light);
+}
+    
+button[disabled] {
+    background-color: grey;
+    opacity: 0.5;
+}
